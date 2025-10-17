@@ -10,4 +10,54 @@
 
 </p>   
 
-                
+### 🌱 What I Believe In:
+- **GOD** love's you, **GOD** is in control🙏
+- Treating others with **kindness and respect** creates meaningful connections.🤝  
+- **Growth comes through effort**, persistence, and learning from challenges.🚀  
+- Gratitude for the small things makes life richer.✨  
+
+I’m always eager to **learn, support**, and become a better version of myself every day.
+
+---
+## 😄Fun Facts About Me:
+- 🖊️ I take notes, but sometimes I forget where I put them.   
+- 😊 I smile a lot because it makes me feel better.
+- 📱 I check my phone too much, even when I don’t need to.
+- 🎒 I carry way too many things in my backpack.
+- 📚 I borrow books from the library and then I forget to return them.
+- 🥳 I celebrate finishing small tasks like I won in life. 
+
+---
+## 📌 Skills
+- Problem Solving🧠  
+- Empathy🤗
+- Good Listener 👂‍♂️   
+- Critical - Thinking🔎
+- Teamwork🤜🤛 
+
+---
+## 👨‍🎓Education
+**Senior High School:** Rafael L. Lazatin Memorial High School-Senior High School(HUMSS Strand) ✅  
+
+**Junior High School:** Rafael L. Lazatin Memorial High School
+
+**Elementary:** Gueco Balibago Elementary School
+
+---
+
+## 📚Languages I used before 
+![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
+---
+## 📝MIDTERM
+**PAIRED LAB TASK**
+**MIDTERM LAB TASK 1:**
+**MIDTERM LAB TASK 2:**
+**MIDTERM LAB TASK 3:**
+**MIDTERM LAB TASK 4:**
+**MIDTERM LAB TASK 5:**
+
+
+
