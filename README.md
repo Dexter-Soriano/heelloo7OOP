@@ -53,7 +53,7 @@ I’m always eager to **learn, support**, and become a better version of myself 
 ---
 ## 📝 MIDTERM
 
-- 📌 **Paired Lab Task**  
+- 🧪 **Paired Lab Task**  
 - 🧪 **Midterm Lab Task 1:** [View File](https://drive.google.com/file/d/1XftQKxotqrKBoReYY3T-T9W1uEZFHDUe/view?usp=sharing)
 - 🧪 **Midterm Lab Task 2:** [View File](MidTermLabTask2.pdf)
 - 🧪 **Midterm Lab Task 3:** [View File](./MLabTask3.pdf)  
