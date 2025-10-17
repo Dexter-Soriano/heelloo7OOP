@@ -51,13 +51,15 @@ I’m always eager to **learn, support**, and become a better version of myself 
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
 ---
-## 📝MIDTERM
-**PAIRED LAB TASK**
-**MIDTERM LAB TASK 1:**
-**MIDTERM LAB TASK 2:**
-**MIDTERM LAB TASK 3:**
-**MIDTERM LAB TASK 4:**
-**MIDTERM LAB TASK 5:**
+## 📝 MIDTERM
+
+- 📌 **Paired Lab Task**  
+- 🧪 **Midterm Lab Task 1:** —  
+- 🧪 **Midterm Lab Task 2:** —  
+- 🧪 **Midterm Lab Task 3:** [📄 View File](./MLabTask3.pdf)  
+- 🧪 **Midterm Lab Task 4:** —  
+- 🧪 **Midterm Lab Task 5:** —
+
 
 
 
