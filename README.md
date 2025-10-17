@@ -10,6 +10,8 @@
 
 </p>   
 
+
+---
 ### 🌱 What I Believe In:
 - **GOD** love's you, **GOD** is in control🙏
 - Treating others with **kindness and respect** creates meaningful connections.🤝  
@@ -61,7 +63,7 @@ I’m always eager to **learn, support**, and become a better version of myself 
 - 🧪 **Midterm Lab Task 5:** [View File](MtermTaskLab5.pdf)
 
 
-
+# To be continue...
 
 
 
