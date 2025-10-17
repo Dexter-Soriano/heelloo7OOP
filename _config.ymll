@@ -10,4 +10,5 @@ Create a file named `_config.yml` and paste this:
 title: "heelloo7OOP"
 description: "Dexter’s OOP Project Portfolio"
 theme: jekyll-theme-cayman
-show_downloads: false
+show_downloads: true
+
