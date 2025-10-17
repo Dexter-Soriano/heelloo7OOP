@@ -54,12 +54,31 @@ I’m always eager to **learn, support**, and become a better version of myself 
 ## 📝 MIDTERM
 
 - 📌 **Paired Lab Task**  
-- 🧪 **Midterm Lab Task 1:** —  
-- 🧪 **Midterm Lab Task 2:** —  
-- 🧪 **Midterm Lab Task 3:** [📄 View File](./MLabTask3.pdf)  
-- 🧪 **Midterm Lab Task 4:** —  
-- 🧪 **Midterm Lab Task 5:** —
+- 🧪 **Midterm Lab Task 1:**  [View File](https://drive.google.com/file/d/1XftQKxotqrKBoReYY3T-T9W1uEZFHDUe/view?usp=sharing)
+- 🧪 **Midterm Lab Task 2:**  
+- 🧪 **Midterm Lab Task 3:** [View File](./MLabTask3.pdf)  
+- 🧪 **Midterm Lab Task 4:** 
+- 🧪 **Midterm Lab Task 5:** 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sda
 
 
