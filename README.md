@@ -1,8 +1,8 @@
-# 🎉Object - Oriented Programming 
+# Object - Oriented Programming🎉
 ### Hello, Welcome to repository of my Object - Oriented Programming that contains about me and my midterm labaratory task & activity.
 
 --- 
-# 🙈About Me
+# About Me🙈
 <p align="left">
   <img src="481980789_1845726369538766_4604718138116937140_n.jpg" width="200" Height="200"/>
 
@@ -57,7 +57,7 @@ I’m always eager to **learn, support**, and become a better version of myself 
 ---
 ## 📝 MIDTERM
 
-- 🧪 **Paired Lab Task**  
+- 🧪 **Paired Lab Task:** 
 - 🧪 **Midterm Lab Task 1:** [View File](https://drive.google.com/file/d/1XftQKxotqrKBoReYY3T-T9W1uEZFHDUe/view?usp=sharing)
 - 🧪 **Midterm Lab Task 2:** [View File](MidTermLabTask2.pdf)
 - 🧪 **Midterm Lab Task 3:** [View File](./MLabTask3.pdf)  
