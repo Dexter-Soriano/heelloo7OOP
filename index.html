@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dexter's Object-Oriented Programming 💻</title>
   <style>
+    /* --- Global Styles --- */
     body {
       font-family: "Segoe UI", sans-serif;
-      background: #0d1117;
+      background: linear-gradient(180deg, #111827, #1f2937);
       color: #c9d1d9;
       margin: 0;
       padding: 0;
       line-height: 1.6;
+      transition: all 0.5s ease;
     }
 
     header {
@@ -19,47 +21,73 @@
       padding: 3rem 1rem;
       background: linear-gradient(135deg, #3b82f6, #9333ea);
       color: white;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
     header h1 {
       margin-bottom: 0.5rem;
-      font-size: 2rem;
+      font-size: 2.3rem;
     }
 
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* --- Section Style --- */
     section {
-      max-width: 800px;
-      margin: 2rem auto;
+      max-width: 850px;
+      margin: 2.5rem auto;
       background: #161b22;
-      padding: 2rem;
-      border-radius: 20px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+      padding: 2.2rem;
+      border-radius: 25px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 25px rgba(88, 166, 255, 0.3);
     }
 
     h2 {
       color: #58a6ff;
       border-bottom: 2px solid #30363d;
       padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
     }
 
     img {
       border-radius: 50%;
-      width: 120px;
+      width: 130px;
       display: block;
       margin: 1rem auto;
       border: 2px solid #58a6ff;
     }
 
-    footer {
-      text-align: center;
-      padding: 1.5rem;
-      font-size: 0.9rem;
-      color: #8b949e;
-      border-top: 1px solid #30363d;
+    ul {
+      list-style: none;
+      padding: 0;
     }
 
-    /* --- Footer Social Section --- */
+    li {
+      margin: 0.5rem 0;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #79b8ff;
+    }
+
+    /* --- Footer --- */
     #social-footer {
       text-align: center;
       padding: 2rem 1rem;
@@ -76,15 +104,15 @@
     .social-links {
       display: flex;
       justify-content: center;
-      gap: 18px;
+      gap: 20px;
       flex-wrap: wrap;
       margin-bottom: 1rem;
     }
 
     .social-links a {
       text-decoration: none;
-      width: 42px;
-      height: 42px;
+      width: 44px;
+      height: 44px;
       display: inline-flex;
       justify-content: center;
       align-items: center;
@@ -96,12 +124,12 @@
 
     .social-links a:hover {
       transform: scale(1.15);
-      box-shadow: 0 0 12px rgba(88, 166, 255, 0.6);
+      box-shadow: 0 0 14px rgba(88, 166, 255, 0.6);
     }
 
     .social-links img {
-      width: 22px;
-      height: 22px;
+      width: 24px;
+      height: 24px;
       filter: invert(1);
     }
 
@@ -137,19 +165,6 @@
         <li><strong>Growth</strong> comes through effort, persistence, and learning from challenges 🚀</li>
         <li><strong>Gratitude</strong> for small things makes life richer ✨</li>
       </ul>
-      <p>I'm always eager to <strong>learn, support</strong>, and become a better version of myself every day.</p>
-    </section>
-
-    <section id="funfacts">
-      <h2>😄 Fun Facts About Me</h2>
-      <ul>
-        <li>🖊️ I take notes, but sometimes I forget where I put them.</li>
-        <li>😊 I smile a lot because it makes me feel better.</li>
-        <li>📱 I check my phone too much, even when I don’t need to.</li>
-        <li>🎒 I carry way too many things in my backpack.</li>
-        <li>📚 I borrow books from the library and forget to return them.</li>
-        <li>🥳 I celebrate finishing small tasks like I won in life.</li>
-      </ul>
     </section>
 
     <section id="skills">
@@ -164,39 +179,22 @@
       </ul>
     </section>
 
-    <section id="education">
-      <h2>👨‍🎓 Education</h2>
-      <p><strong>Senior High School:</strong> Rafael L. Lazatin Memorial High School (HUMSS Strand) ✅</p>
-      <p><strong>Junior High School:</strong> Rafael L. Lazatin Memorial High School</p>
-      <p><strong>Elementary:</strong> Gueco Balibago Elementary School</p>
-    </section>
-
-    <section id="languages">
-      <h2>📚 Languages I Used Before</h2>
-      <p>
-        <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-        <img src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-        <img src="https://img.shields.io/badge/C-00599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C">
-        <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-      </p>
-    </section>
-
     <section id="midterm">
       <h2>📝 Midterm Tasks</h2>
       <ul>
         <li>🧪 <strong>Paired Lab Task</strong></li>
-        <li>🧪 <a href="https://drive.google.com/file/d/1XftQKxotqrKBoReYY3T-T9W1uEZFHDUe/view?usp=sharing">Midterm Lab Task 1</a></li>
-        <li>🧪 <a href="MidTermLabTask2.pdf">Midterm Lab Task 2</a></li>
-        <li>🧪 <a href="MLabTask3.pdf">Midterm Lab Task 3</a></li>
-        <li>🧪 <a href="MtermLabTask4.pdf">Midterm Lab Task 4</a></li>
-        <li>🧪 <a href="MtermTaskLab5.pdf">Midterm Lab Task 5</a></li>
+        <li>🧪 <a href="https://drive.google.com/file/d/1XftQKxotqrKBoReYY3T-T9W1uEZFHDUe/view?usp=sharing" target="_blank">Midterm Lab Task 1</a></li>
+        <li>🧪 <a href="MidTermLabTask2.pdf" target="_blank">Midterm Lab Task 2</a></li>
+        <li>🧪 <a href="MLabTask3.pdf" target="_blank">Midterm Lab Task 3</a></li>
+        <li>🧪 <a href="MtermLabTask4.pdf" target="_blank">Midterm Lab Task 4</a></li>
+        <li>🧪 <a href="MtermTaskLab5.pdf" target="_blank">Midterm Lab Task 5</a></li>
       </ul>
     </section>
 
     <section id="final">
       <h2>📑 Final Tasks</h2>
       <ul>
-        <li>🧪 <a href="FinalLabTask1.pdf">Final Lab Task 1</a></li>
+        <li>🧪 <a href="FinalLabTask1.pdf" target="_blank">Final Lab Task 1</a></li>
       </ul>
     </section>
   </main>
@@ -215,7 +213,7 @@
         <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
       </a>
     </div>
-    <p>© Thankyou for visiting..</p>
+    <p>© 2025 Dexter Soriano | Thank you for visiting!</p>
   </footer>
 </body>
 </html>
