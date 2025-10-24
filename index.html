@@ -3,101 +3,143 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dexter's Object-Oriented Programming 💻</title>
+  <title>Dexter’s OOP Portfolio 💻</title>
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <style>
     /* --- Global Styles --- */
-    body {
-      font-family: "Segoe UI", sans-serif;
-      background: linear-gradient(180deg, #111827, #1f2937);
-      color: #c9d1d9;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      transition: all 0.5s ease;
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
     }
 
+    body {
+      font-family: "Poppins", "Segoe UI", sans-serif;
+      background: #f1f5f9;
+      color: #1e293b;
+      margin: 0;
+      line-height: 1.8;
+    }
+
+    /* --- Header --- */
     header {
+      background: linear-gradient(135deg, #3b82f6, #6366f1);
+      color: white;
       text-align: center;
       padding: 3rem 1rem;
-      background: linear-gradient(135deg, #3b82f6, #9333ea);
-      color: white;
-      border-bottom-left-radius: 25px;
-      border-bottom-right-radius: 25px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
     }
 
     header h1 {
+      font-size: 2.6rem;
       margin-bottom: 0.5rem;
-      font-size: 2.3rem;
     }
 
     header p {
-      font-size: 1.1rem;
-      opacity: 0.9;
+      font-size: 1.2rem;
+      opacity: 0.95;
     }
 
-    /* --- Section Style --- */
+    /* --- Navigation Bar --- */
+    nav {
+      background: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      display: flex;
+      justify-content: center;
+      gap: 1.8rem;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #334155;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #2563eb;
+    }
+
+    /* --- Section Layout --- */
     section {
-      max-width: 850px;
-      margin: 2.5rem auto;
-      background: #161b22;
-      padding: 2.2rem;
-      border-radius: 25px;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+      max-width: 900px;
+      margin: 4rem auto;
+      padding: 2.5rem;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     section:hover {
       transform: scale(1.02);
-      box-shadow: 0 8px 25px rgba(88, 166, 255, 0.3);
+      box-shadow: 0 8px 25px rgba(37, 99, 235, 0.2);
     }
 
     h2 {
-      color: #58a6ff;
-      border-bottom: 2px solid #30363d;
+      color: #2563eb;
+      border-bottom: 3px solid #e2e8f0;
       padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #334155;
+      text-align: justify;
     }
 
     img {
       border-radius: 50%;
-      width: 130px;
+      width: 150px;
+      border: 3px solid #3b82f6;
       display: block;
-      margin: 1rem auto;
-      border: 2px solid #58a6ff;
+      margin: 1rem auto 2rem;
     }
 
     ul {
       list-style: none;
-      padding: 0;
+      padding-left: 0;
+      color: #334155;
+      font-size: 1.05rem;
     }
 
     li {
-      margin: 0.5rem 0;
+      margin: 0.6rem 0;
     }
 
     a {
-      color: #58a6ff;
+      color: #2563eb;
       text-decoration: none;
-      font-weight: 500;
     }
 
     a:hover {
       text-decoration: underline;
-      color: #79b8ff;
+      color: #1d4ed8;
     }
 
     /* --- Footer --- */
-    #social-footer {
+    footer {
+      background: linear-gradient(135deg, #3b82f6, #6366f1);
+      color: white;
       text-align: center;
-      padding: 2rem 1rem;
-      margin-top: 3rem;
-      border-top: 2px solid #30363d;
-      background: linear-gradient(135deg, #1f2937, #111827);
+      padding: 2.5rem 1rem;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      margin-top: 5rem;
     }
 
-    #social-footer h2 {
-      color: #58a6ff;
+    footer h2 {
+      color: white;
       margin-bottom: 1rem;
     }
 
@@ -105,81 +147,98 @@
       display: flex;
       justify-content: center;
       gap: 20px;
-      flex-wrap: wrap;
       margin-bottom: 1rem;
     }
 
     .social-links a {
-      text-decoration: none;
-      width: 44px;
-      height: 44px;
-      display: inline-flex;
+      width: 48px;
+      height: 48px;
+      background: white;
+      border-radius: 50%;
+      display: flex;
       justify-content: center;
       align-items: center;
-      background: #0d1117;
-      border-radius: 50%;
-      transition: all 0.25s ease-in-out;
-      box-shadow: 0 0 8px rgba(88, 166, 255, 0.3);
+      transition: transform 0.3s, background 0.3s;
     }
 
     .social-links a:hover {
-      transform: scale(1.15);
-      box-shadow: 0 0 14px rgba(88, 166, 255, 0.6);
+      transform: scale(1.1);
+      background: #dbeafe;
     }
 
     .social-links img {
       width: 24px;
-      height: 24px;
-      filter: invert(1);
     }
 
-    #social-footer p {
-      margin-top: 1rem;
-      color: #8b949e;
-      font-size: 0.9rem;
+    footer p {
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+
+    /* --- Responsive --- */
+    @media (max-width: 700px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section {
+        margin: 2rem 1rem;
+        padding: 2rem 1.5rem;
+      }
     }
   </style>
 </head>
+
 <body>
-  <header>
-    <h1>Object-Oriented Programming 🎉</h1>
-    <p>Welcome to my OOP repository — where I showcase my progress and learning journey!</p>
+  <!-- Header -->
+  <header data-aos="fade-down">
+    <h1>Object-Oriented Programming 💻</h1>
+    <p>Hello, Welcome to repository of my Object - Oriented Programming that contains about me and my midterm labaratory task & activity.</p>
   </header>
 
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#beliefs">Beliefs</a>
+    <a href="#skills">Skills</a>
+    <a href="#midterm">Midterm</a>
+    <a href="#final">Final</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Sections -->
   <main>
-    <section id="about">
+    <section id="about" data-aos="fade-up">
       <h2>About Me 🙈</h2>
       <img src="481980789_1845726369538766_4604718138116937140_n.jpg" alt="Dexter Photo">
       <p>
-        I'm <strong>Dexter</strong>, or you can also call me <strong>"Dekdek"</strong>, 20 years old from Brgy. Balibago, Angeles City.
-        I love cooking, exploring, playing online games, listening to music, watching and reading.
-        I'm excited to learn new things to achieve my goals and become a better programmer soon.
+        I'm <strong>Dexter</strong>, or you can also call me as "<strong>Dekdek</strong>", 20 years old and I live in Brgy. Balibago, Angeles City. I love cooking, exploring, playing online games, listening to music, watching and reading, I'm also excited to learn new things to achieve my goals and become a better programmer soon.
       </p>
     </section>
 
-    <section id="beliefs">
+    <section id="beliefs" data-aos="fade-right">
       <h2>What I Believe In 🙏</h2>
       <ul>
-        <li><strong>GOD</strong> loves you, <strong>GOD</strong> is in control 🙌</li>
-        <li>Treating others with <strong>kindness and respect</strong> creates meaningful relationships 💞</li>
-        <li><strong>Growth</strong> comes through effort, persistence, and learning from challenges 🚀</li>
-        <li><strong>Gratitude</strong> for small things makes life richer ✨</li>
+        <li>🙌 <strong>God</strong> loves everyone and is always in control.</li>
+        <li>💞 Kindness and respect create strong relationships.</li>
+        <li>🚀 Growth comes through persistence and challenges.</li>
+        <li>✨ Gratitude for small things makes life richer.</li>
       </ul>
     </section>
 
-    <section id="skills">
+    <section id="skills" data-aos="fade-left">
       <h2>🧠 Skills</h2>
       <ul>
-        <li>Problem Solving 🧩</li>
-        <li>Empathy 🤗</li>
-        <li>Good Listener 👂‍♂️</li>
-        <li>Critical Thinking 🔍</li>
-        <li>Teamwork 🤝</li>
-        <li>Stewardship 💫</li>
+        <li>🧩 Problem Solving</li>
+        <li>🤗 Empathy</li>
+        <li>👂 Good Listener</li>
+        <li>🔍 Critical Thinking</li>
+        <li>🤝 Teamwork</li>
+        <li>💫 Stewardship</li>
       </ul>
     </section>
 
-    <section id="midterm">
+    <section id="midterm" data-aos="fade-up">
       <h2>📝 Midterm Tasks</h2>
       <ul>
         <li>🧪 <strong>Paired Lab Task</strong></li>
@@ -191,7 +250,7 @@
       </ul>
     </section>
 
-    <section id="final">
+    <section id="final" data-aos="fade-up">
       <h2>📑 Final Tasks</h2>
       <ul>
         <li>🧪 <a href="FinalLabTask1.pdf" target="_blank">Final Lab Task 1</a></li>
@@ -199,8 +258,8 @@
     </section>
   </main>
 
-  <!-- 👇 Footer / Contact Section -->
-  <footer id="social-footer">
+  <!-- Footer -->
+  <footer id="contact" data-aos="fade-up">
     <h2>📬 Contact Me</h2>
     <div class="social-links">
       <a href="https://www.facebook.com/Dex.Bay27" target="_blank">
@@ -213,7 +272,16 @@
         <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
       </a>
     </div>
-    <p>© 2025 Dexter Soriano | Thank you for visiting!</p>
+    <p>© Thankyou for visiting...</p>
   </footer>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true
+    });
+  </script>
 </body>
 </html>
